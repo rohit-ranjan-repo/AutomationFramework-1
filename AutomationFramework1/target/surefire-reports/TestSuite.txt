@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 92.426 sec <<< FAILURE!
+testValidCustomerDetails(com.selenium.tests.BuyHealthPolicyNegativeTest)  Time elapsed: 21.621 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Just A Few More Details Before You Pay] but found [Just A Few Details Before You Pay]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at com.selenium.tests.BuyHealthPolicyNegativeTest.testValidCustomerDetails(BuyHealthPolicyNegativeTest.java:110)
+

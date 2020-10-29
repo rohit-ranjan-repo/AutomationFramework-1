@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.selenium.tests.BuyHealthPolicyNegativeTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="testValidCustomerDetails" invocation-numbers="0"/>
+          <include name="proceedToPay"/>
+          <include name="tearDown"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.selenium.tests.BuyHealthPolicyNegativeTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
